@@ -1,0 +1,64 @@
+/* Stile generale per il contenitore del form di autenticazione */
+.auth-form {
+    max-width: 400px;
+    margin: 100px auto; /* Centra verticalmente e orizzontalmente il form */
+    padding: 20px;
+    background-color: white; /* Colore di sfondo bianco per il form */
+    border-radius: 10px; /* Arrotonda gli angoli */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra per un effetto di profondità */
+}
+
+/* Stile per il titolo del form (ad es. Login o Registrazione) */
+.auth-form h2 {
+    margin-bottom: 20px;
+    color: #333; /* Colore del testo */
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Stile per i gruppi di input */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Stile per gli input di testo e password */
+input {
+    width: 100%; /* Rende gli input larghi quanto il form */
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ddd; /* Bordi sottili grigi */
+    border-radius: 5px; /* Arrotonda gli angoli degli input */
+    box-sizing: border-box;
+}
+
+/* Stile per il pulsante */
+button {
+    width: 100%; /* Il pulsante prende tutta la larghezza del form */
+    padding: 10px;
+    background-color: #0c66dc; /* Colore verde chiaro per il pulsante */
+    color: white; /* Testo bianco */
+    border: none; /* Rimuove il bordo */
+    border-radius: 5px; /* Arrotonda gli angoli del pulsante */
+    cursor: pointer; /* Aggiunge un puntatore al passaggio del mouse */
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Aggiunge una transizione per un effetto di hover fluido */
+}
+
+/* Effetto hover sul pulsante */
+button:hover {
+    background-color: #176a93; /* Cambia il colore del pulsante al passaggio del mouse */
+}
+
+/* Stile per il messaggio di errore */
+.error-message {
+    color: red; /* Testo rosso per indicare gli errori */
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Aggiunta di uno sfondo verde chiaro per la pagina */
+body {
+    background-color: #d4edda; /* Sfondo verde chiaro che richiama il logo */
+    font-family: Arial, sans-serif; /* Font semplice e leggibile */
+}
